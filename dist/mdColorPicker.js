@@ -882,8 +882,6 @@ angular.module('mdColorPicker', [])
 							};
 							$scope.hide = $scope.ok;
 
-							console.log('Default Options: ', options);
-
 							$scope.value = options.value;
 							$scope.default = options.defaultValue;
 							$scope.random = options.random;
