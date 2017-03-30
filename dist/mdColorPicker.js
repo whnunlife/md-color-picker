@@ -869,7 +869,7 @@ angular.module('mdColorPicker', [])
 					templateUrl: 'mdColorPickerDialog.tpl.html',
 					hasBackdrop: options.hasBackdrop,
 					clickOutsideToClose: options.clickOutsideToClose,
-
+					multiple: true,
 					controller: ['$scope', 'options', function( $scope, options ) {
 							//console.log( "DIALOG CONTROLLER OPEN", Date.now() - dateClick );
 							$scope.close = function close()
